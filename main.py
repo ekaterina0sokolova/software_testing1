@@ -1,5 +1,6 @@
 from math import sqrt
 
+
 def solve_quadratic_equation(a: float, b: float, c: float) -> list:
     try:
         if a == 0:
@@ -17,7 +18,6 @@ def solve_quadratic_equation(a: float, b: float, c: float) -> list:
             return [-b / (2 * a)]
     except:
         raise TypeError
-
 
 
 def main():

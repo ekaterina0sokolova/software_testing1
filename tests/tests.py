@@ -28,6 +28,5 @@ class TestQuadraticEquationModule(unittest.TestCase):
             solve_quadratic_equation(a=2, b=2, c=2, dicr=0)
 
 
-
 if __name__ == '__main__':
     unittest.main()
