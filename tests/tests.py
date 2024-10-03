@@ -1,5 +1,5 @@
 import unittest
-from ..main import solve_quadratic_equation
+from main import solve_quadratic_equation
 
 
 class TestQuadraticEquationModule(unittest.TestCase):
