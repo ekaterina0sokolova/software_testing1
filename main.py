@@ -3,7 +3,7 @@ from math import sqrt
 def solve_quadratic_equation(a: float, b: float, c: float) -> list:
     try:
         if a == 0:
-            return [c / b]
+            return [-c / b]
 
         discr = b * b - 4 * a * c
 
@@ -16,7 +16,7 @@ def solve_quadratic_equation(a: float, b: float, c: float) -> list:
         elif discr == 0:
             return [-b / (2 * a)]
     except:
-        ["введены неверные параметры функции"]
+        raise TypeError
 
 
 
