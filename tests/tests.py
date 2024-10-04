@@ -16,7 +16,7 @@ class TestQuadraticEquationModule(unittest.TestCase):
         self.assertEqual(solve_quadratic_equation(a=0, b=2, c=-4), [2.0])
 
     def test_zero_a_zero_b(self):
-        self.assertEqual(solve_quadratic_equation(a=0, b=0, c=-4), [4.0])
+        self.assertEqual(solve_quadratic_equation(a=0, b=0, c=-4), ["не уравнение"])
 
     def test_incorrect_arguments_type(self):
         with self.assertRaises(TypeError):

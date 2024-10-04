@@ -4,7 +4,7 @@ from math import sqrt
 def solve_quadratic_equation(a: float, b: float, c: float) -> list:
     try:
         if b == 0 and a == 0:
-            return -c
+            return ["не уравнение"]
 
         if a == 0:
             return [-c / b]
