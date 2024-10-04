@@ -1,5 +1,11 @@
 ### План тестирования
 
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ekaterina0sokolova_software_testing1&metric=coverage)](https://sonarcloud.io/summary/new_code?id=ekaterina0sokolova_software_testing1)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ekaterina0sokolova_software_testing1&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ekaterina0sokolova_software_testing1)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ekaterina0sokolova_software_testing1&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ekaterina0sokolova_software_testing1)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ekaterina0sokolova_software_testing1&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ekaterina0sokolova_software_testing1)
+
+
 | Название                      | Описание                                                                                                                                                                   | Тип теста       | Входные данные                             | Ожидаемый результат                       |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|--------------------------------------------|-------------------------------------------|
 | test_positive_discr           | Проверяет, что функция solve_quadratic_equation возвращает список с двумя корнями уравнения при положительном дискриминанте.                                               | позитивный      | a = 1<br/> b = -4<br/>  c = -5             | \[5.0, -1.0]                              |
